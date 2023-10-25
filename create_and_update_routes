@@ -1,0 +1,18 @@
+create
+https://strapi.benu.at/content-manager/collection-types/api::article.article?plugins[i18n][locale]=de-AT
+{"global_seo":{"index_follow":"noindex_nofollow","title":"aaaa","description":"aaaa","canonical":"aaaa","sharing_image":2461},"domain":"benu","header":[{"__component":"articles-header.header-1","featured_image":2461}],"title":"aaaa","slug":"/aaa/","timestamp":"2023-10-04","read_time":2}
+
+update
+https://strapi.benu.at/content-manager/collection-types/api::article.article/316
+{"id":316,"title":"aaaa","slug":"/aaa/","timestamp":"2023-10-04","read_time":2,"domain":"benu","createdAt":"2023-10-20T19:52:38.007Z","updatedAt":"2023-10-20T19:52:38.007Z","publishedAt":null,"locale":"de-AT","global_seo":{"id":831,"title":"aaaaaaa","description":"aaaa","canonical":"aaaa","index_follow":"noindex_nofollow","sharing_image":2461},"header":[{"__component":"articles-header.header-1","id":283,"featured_image":2461}],"components":[],"articles_category":null,"author":null,"createdBy":1,"updatedBy":1,"localizations":[]}
+
+
+create
+http://localhost:1337/content-manager/collection-types/api::article.article
+{"title":"asdasdasd"}
+
+
+update
+http://localhost:1337/content-manager/collection-types/api::article.article/1
+{"id":1,"title":"asdasdasd aaaaaa","createdAt":"2023-10-20T19:58:36.463Z","updatedAt":"2023-10-20T19:58:36.463Z","publishedAt":null,"createdBy":1,"updatedBy":1}
+
